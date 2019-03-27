@@ -19,7 +19,36 @@ Use '@import url' to load more or your own fonts*/
  | )___) )| (___) || ) \ \__| (____/\| )   ( || (____/\___) (___/\____) |
  |/ \___/ (_______)|/   \__/(_______/|/     \|(_______/\_______/\_______)
 	    By RedDev and Safe Haven
-	
+*/
+#bd-settingspane-container .bda-slist::before {
+  content:"Auto Updates and saved customizations!";
+  display: block;
+  line-height:22px;
+  font-size:18px;
+  position: relative;
+  background: var(--main-color);
+  padding: 10px 15px;
+  white-space: pre;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  font-weight: 500;
+  margin-top:-10px;
+  color: #fff;
+  text-transform: none;
+  overflow:hidden;
+  width:fit-content;
+}
+.wordmark-2iDDfm:after {
+	content:'Borealis Release 1.7.0';
+	position: absolute !important;
+	left: 5px;
+	width: 100vw;
+	font-family:'Electrolize';
+	color: rgba(255,255,255,0.8);
+	font-size: 19px;
+	font-weight:bold;
+}/*		
 TABLE OF CONTENTS
 
 1. Background and Sizing
@@ -156,41 +185,11 @@ TABLE OF CONTENTS
 15. Overwrite Grey SVG's
 */
 /*small fix*/
-/*9.u Changelog*/
-#bd-settingspane-container .bda-slist::before {
-  content:"All emote sizes can be edited!";
-  display: block;
-  line-height:22px;
-  font-size:18px;
-  position: relative;
-  background: var(--main-color);
-  padding: 10px 15px;
-  white-space: pre;
-  margin-bottom: 15px;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.4);
-  font-weight: 500;
-  margin-top:-10px;
-  color: #fff;
-  text-transform: none;
-  overflow:hidden;
-  width:fit-content;
-}
 .scroller-2FKFPG {
 	color:#010101;
 }
 .header-3ZP1MY {
 	color:#FFFFFF;
-}
-.wordmark-2iDDfm:after {
-	content:'Borealis Release 1.6.10';
-	position: absolute !important;
-	left: 5px;
-	width: 100vw;
-	font-family:'Electrolize';
-	color: rgba(255,255,255,0.8);
-	font-size: 19px;
-	font-weight:bold;
 }
 /*1. Background and Sizing*/
 /*1.a. Main Background*/
