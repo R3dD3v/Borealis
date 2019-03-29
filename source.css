@@ -21,7 +21,7 @@ Use '@import url' to load more or your own fonts*/
 	    By RedDev and Safe Haven
 */
 #bd-settingspane-container .bda-slist::before {
-  content:"Auto Updates and saved customizations!";
+  content:"g n o m e d!";
   display: block;
   line-height:22px;
   font-size:18px;
@@ -40,7 +40,7 @@ Use '@import url' to load more or your own fonts*/
   width:fit-content;
 }
 .wordmark-2iDDfm:after {
-	content:'Borealis Release 1.7.0';
+	content:'Borealis Release 1.7.1';
 	position: absolute !important;
 	left: 5px;
 	width: 100vw;
@@ -1446,7 +1446,7 @@ body #app-mount .channel-2QD9_O.selected-1HYmZZ a {
 
 /*5.c. Canary Unread Indicators*/
 .unread-2OHH1w:before {
-  background:var(--hover-color) !important;
+  background:#AAAAAA;
 }
 .wrapper-1Rf91z .unread-2OHH1w:before {
   box-shadow: 0 0 15px var(--hover-color);
