@@ -21,7 +21,7 @@ Use '@import url' to load more or your own fonts*/
 	    By RedDev and Safe Haven
 */
 #bd-settingspane-container .bda-slist::before {
-  content:"g n o m e d!";
+  content:"Get Gnomed!";
   display: block;
   line-height:22px;
   font-size:18px;
